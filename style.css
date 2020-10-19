@@ -1,0 +1,135 @@
+body
+{
+	font-family: 'myndraine_regular', Arial, serif;
+	
+}
+
+div
+{
+	border: 1px black solid;
+}
+
+/* Style du block d'une classe */
+div.background
+{
+	margin-top: 1em;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(../images/OHNO.gif);
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+}
+
+p
+{
+	clear: both;
+	margin-top: 1.5em;
+}
+
+p:focus
+{
+	font-weight : bold;
+}
+
+img
+{
+	height : 25%;
+	width : 25%;
+}
+
+img:active
+{
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+}
+
+H3,h1,h2
+{
+	Color: gray;
+}
+
+h2
+{
+	font-style: italic;
+}
+
+a
+{
+	Color:#202090;
+}
+
+a:hover
+{
+	Color:#6060E0;
+}
+
+/* style de lien */
+a[title*="me"]
+{
+	Color:#a05000;
+}
+
+ul,ol
+{
+	text-align: left;
+	border-width : 1px;
+	border-style: solid;
+	border-color : black;
+}
+
+li
+{
+	margin-top: 0.2em;
+}
+
+/* style de class */
+.toto
+{
+	color:#a14a00;
+}
+
+.gauche
+{
+	float: left;
+}
+
+.exemple
+{
+	float : left;
+	font-size: 0.9em;
+	font-family: Arial;
+	border-width: 3px;
+	border-style: double;
+	border-color : #a05000;
+}
+
+#background
+{
+	background-image: url(../images/CTHULU.jpg)
+}
+
+/* style d'id */
+#tata 
+{
+	font-size: 110%;
+}
+
+@font-face	
+{
+	font-family: 'myndraine_regular';
+	src: url('police/myndraine_regular_macroman/Myndraine-webfont.eot');
+	src: url('police/myndraine_regular_macroman/Myndraine-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('police/myndraine_regular_macroman/Myndraine-webfont.woff') format('woff'),
+		 url('police/myndraine_regular_macroman/Myndraine-webfont.ttf') format('truetype'),
+		 url('police/myndraine_regular_macroman/Myndraine-webfont.svg#myndraine_regular') format('svg');
+}
+		 
+/* Style sur les input de type text */
+input[type="text"]
+{
+	letter-spacing: 3px;
+}
+input[type="email"]
+{
+	border-color: green;
+}
